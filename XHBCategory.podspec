@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "XHBCategory"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "这是一个很实用的分类集合"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  这是一个很实用的分类集合
+                    这是一个很实用的分类集合
                    DESC
 
   spec.homepage     = "https://github.com/dongpo666/HBCategory"
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "XHBCategory", "XHBCategory/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
- spec.public_header_files = "XHBCategory/**/*.h"
+ #spec.public_header_files = "XHBCategory/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
